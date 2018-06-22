@@ -7,7 +7,7 @@
 	"type": "RESTDECISION",
 	"lang": {
 		"en-US": {
-			"name": "Custom Split",
+			"name": "loop activity",
 			"description": "Custom Split activity"
 		}
 	},
