@@ -1,5 +1,5 @@
 {
-	"key": "<YOUR APPLICATION EXTENSION KEY HERE>",
+	"key": "keysplit",
 	"metaData": {
 		"icon": "images/icon.png",
 		"iconSmall": "images/icon_small.png"
@@ -19,45 +19,45 @@
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
+			"customerKey": "keysplit"
 		},
 		"publish": {
 			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/publish",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
+			"customerKey": "keysplit"
 		},
 		"validate": {
 			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/validate",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
+			"customerKey": "keysplit"
 		}
 	},
 	"wizardSteps": [
 		{"key": "eventdefinitionkey", "label": "Event Definition Key"},
 		{"key": "idselection", "label": "ID Selection"}
 	],
-	"outcomes": [
+	 "outcomes": [
 		{
 			"arguments": {
-				"branchResult": "<KEY FOR PATH 1>"
+				"branchResult": "true"
 			},
 			"metaData": {
-				"label": "<LABEL FOR PATH 1>"
+				"label": "True"
 			}
 		},
 		{
 			"arguments": {
-				"branchResult": "<KEY FOR PATH 2>"
+				"branchResult": "false"
 			},
 			"metaData": {
-				"label": "<LABEL FOR PATH 2>"
+				"label": "False"
 			}
 		}
-	],
+	], 
 	"userInterfaces": {
 		"runningModal": {
 			"url": "runningModal.html"
@@ -76,7 +76,7 @@
 			"header": "",
 			"format": "json",
 			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>",
+			"customerKey": "splitkey",
 			"timeout": 90000
 		}
 	},
