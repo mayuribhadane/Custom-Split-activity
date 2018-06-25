@@ -1,5 +1,5 @@
 {
-	"key": "keysplit",
+	"key": "7e184eae-26fb-4687-b800-9a7617390fdb",
 	"metaData": {
 		"icon": "images/icon.png",
 		"iconSmall": "images/icon_small.png"
@@ -13,27 +13,27 @@
 	},
 	"workflowApiVersion": "1.1",
 	"configurationArguments": {
-		"applicationExtensionKey": "keysplit",
+		"applicationExtensionKey": "7e184eae-26fb-4687-b800-9a7617390fdb",
 		"save": {
 			"url": "https://rocky-island-15928.herokuapp.com/activity/save",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "keysplit"
+			"customerKey": "7e184eae-26fb-4687-b800-9a7617390fdb"
 		},
 		"publish": {
 			"url": "https://rocky-island-15928.herokuapp.com/activity/publish",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "keysplit"
+			"customerKey": "7e184eae-26fb-4687-b800-9a7617390fdb"
 		},
 		"validate": {
 			"url": "https://rocky-island-15928.herokuapp.com/activity/validate",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "keysplit"
+			"customerKey": "7e184eae-26fb-4687-b800-9a7617390fdb"
 		}
 	},
 	"wizardSteps": [
@@ -76,7 +76,7 @@
 			"header": "",
 			"format": "json",
 			"useJwt": true,
-			"customerKey": "splitkey",
+			"customerKey": "7e184eae-26fb-4687-b800-9a7617390fdb",
 			"timeout": 90000
 		}
 	},
