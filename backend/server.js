@@ -8,8 +8,8 @@ const express = require('express');
 const verifyJwt = require(Path.join(__dirname, 'lib', 'jwt.js'));
 // Helper class that handles all the interactions with Salesforce Service Cloud
 // and makes sure open connections are reused for subsequent requests.
-const ServiceCloud = require(Path.join(__dirname, 'lib', 'sfdc.js'));
-const sfdc = new ServiceCloud(Pkg.options.salesforce.serviceCloud);
+//const ServiceCloud = require(Path.join(__dirname, 'lib', 'sfdc.js'));
+//const sfdc = new ServiceCloud(Pkg.options.salesforce.serviceCloud);
 
 const app = express();
 
