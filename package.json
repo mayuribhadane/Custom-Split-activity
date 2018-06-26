@@ -1,5 +1,5 @@
 {
-	"name": "loop activity",
+	"name": "loopactivity",
 	"version": "0.0.2",
 	"description": "Backend for the custom activity",
 	"main": "backend/server.js",
@@ -15,7 +15,7 @@
 	"options": {
 		"salesforce": {
 			"marketingCloud": {
-				"jwtSecret": "splitkey"
+				"jwtSecret": "7e184eae-26fb-4687-b800-9a7617390fdb"
 			}
 		}
 	}
