@@ -12,6 +12,13 @@
 		"jsforce": "^1.7.1",
 		"jsonwebtoken": "^7.4.0"
 	},
+"options": {
+	"salesforce": {
+		"marketingCloud": {
+			"jwtSecret": "7e184eae-26fb-4687-b800-9a7617390fdb"
+		}
+	}
+},
   "engines": {
     "node": "6.1.0"
   },
