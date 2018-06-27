@@ -49,14 +49,8 @@
 				"label": "True"
 			}
 		},
-		{
-			"arguments": {
-				"branchResult": "false"
-			},
-			"metaData": {
-				"label": "False"
-			}
-		}
+		 
+		
 	], 
 	"userInterfaces": {
 		"runningModal": {
