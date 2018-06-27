@@ -40,13 +40,24 @@
 		{"key": "eventdefinitionkey", "label": "Event Definition Key"},
 		{"key": "idselection", "label": "ID Selection"}
 	],
-	  "outcomes": [
-        {
-            "key": "dataUpdate-outcome-1",
-	    "next" : "7e184eae-26fb-4687-b800-9a7617390fdb"
-           
-        }
-    ],
+	 "outcomes": [
+		{
+			"arguments": {
+				"branchResult": "true"
+			},
+			"metaData": {
+				"label": "True"
+			}
+		},
+		{
+			"arguments": {
+				"branchResult": "false"
+			},
+			"metaData": {
+				"label": "False"
+			}
+		}
+	], 
 	"userInterfaces": {
 		"runningModal": {
 			"url": "runningModal.html"
