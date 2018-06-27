@@ -40,18 +40,7 @@
 		{"key": "eventdefinitionkey", "label": "Event Definition Key"},
 		{"key": "idselection", "label": "ID Selection"}
 	],
-	 "outcomes": [
-		{
-			"arguments": {
-				"branchResult": "true"
-			},
-			"metaData": {
-				"label": "True"
-			}
-		},
-		 
-		
-	], 
+	 
 	"userInterfaces": {
 		"runningModal": {
 			"url": "runningModal.html"
