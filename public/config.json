@@ -18,22 +18,19 @@
 			"url": "https://rocky-island-15928.herokuapp.com/activity/save",
 			"verb": "POST",
 			"body": "",
-			"useJwt": true,
-			"customerKey": "7e184eae-26fb-4687-b800-9a7617390fdb"
+			"useJwt": false
 		},
 		"publish": {
 			"url": "https://rocky-island-15928.herokuapp.com/activity/publish",
 			"verb": "POST",
 			"body": "",
-			"useJwt": true,
-			"customerKey": "7e184eae-26fb-4687-b800-9a7617390fdb"
+			"useJwt": false
 		},
 		"validate": {
 			"url": "https://rocky-island-15928.herokuapp.com/activity/validate",
 			"verb": "POST",
 			"body": "",
-			"useJwt": true,
-			"customerKey": "7e184eae-26fb-4687-b800-9a7617390fdb"
+			"useJwt": false
 		}
 	},
 	"wizardSteps": [
@@ -75,8 +72,7 @@
 			"body": "",
 			"header": "",
 			"format": "json",
-			"useJwt": true,
-			"customerKey": "7e184eae-26fb-4687-b800-9a7617390fdb",
+			"useJwt": false
 			"timeout": 90000
 		}
 	},	
