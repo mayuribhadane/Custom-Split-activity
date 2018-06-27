@@ -40,7 +40,12 @@
 		{"key": "eventdefinitionkey", "label": "Event Definition Key"},
 		{"key": "idselection", "label": "ID Selection"}
 	],
-	 
+	  "outcomes": [
+        {
+            "key": "dataUpdate-outcome-1",
+            "next": "7e184eae-26fb-4687-b800-9a7617390fdb"
+        }
+    ],
 	"userInterfaces": {
 		"runningModal": {
 			"url": "runningModal.html"
@@ -62,7 +67,7 @@
 			"customerKey": "7e184eae-26fb-4687-b800-9a7617390fdb",
 			"timeout": 90000
 		}
-	},
+	},	
 	"edit": {
 		"url": "https://rocky-island-15928.herokuapp.com/index.html",
 		"height": 200,
