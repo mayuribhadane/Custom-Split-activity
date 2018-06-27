@@ -15,21 +15,21 @@
 	"configurationArguments": {
 		"applicationExtensionKey": "7e184eae-26fb-4687-b800-9a7617390fdb",
 		"save": {
-			"url": "https://rocky-island-15928.herokuapp.com/activity/save",
+			"url": "https://rocky-island-15928.herokuapp.com/save",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
 			"customerKey": "7e184eae-26fb-4687-b800-9a7617390fdb"
 		},
 		"publish": {
-			"url": "https://rocky-island-15928.herokuapp.com/activity/publish",
+			"url": "https://rocky-island-15928.herokuapp.com/publish",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
 			"customerKey": "7e184eae-26fb-4687-b800-9a7617390fdb"
 		},
 		"validate": {
-			"url": "https://rocky-island-15928.herokuapp.com/activity/validate",
+			"url": "https://rocky-island-15928.herokuapp.com/validate",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
@@ -59,7 +59,7 @@
 		"execute": {
 			"inArguments": [],
 			"outArguments": [],
-			"url": "https://rocky-island-15928.herokuapp.com/activity/execute",
+			"url": "https://rocky-island-15928.herokuapp.com/execute",
 			"verb": "POST",
 			"body": "",
 			"header": "",
