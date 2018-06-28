@@ -25,7 +25,7 @@ define(function (require) {
 
 	function onClickedNext () {
 		if (currentStep.key === 'idselection') {
-			//save();
+			save();
 		} else {
 			connection.trigger('nextStep');
 		}
