@@ -25,7 +25,7 @@ define(function (require) {
 
 	function onClickedNext () {
 		if (currentStep.key === 'idselection') {
-			save();
+			//save();
 		} else {
 			connection.trigger('nextStep');
 		}
@@ -66,7 +66,7 @@ define(function (require) {
 			eventDefinitionKey = settings.triggers[0].metaData.eventDefinitionKey;
 			$('#select-entryevent-defkey').val(eventDefinitionKey);
 
-			if (settings.triggers[0].type === 'SalesforceObjectTriggerV2' &&
+			/*if (settings.triggers[0].type === 'SalesforceObjectTriggerV2' &&
 					settings.triggers[0].configurationArguments &&
 					settings.triggers[0].configurationArguments.eventDataConfig) {
 
@@ -94,22 +94,22 @@ define(function (require) {
 			} else {
 				$('#select-id-dropdown').hide();
 				$('#select-id').show();
-			}
+			}*/
 		} catch (e) {
 			console.error(e);
-			$('#select-id-dropdown').hide();
-			$('#select-id').show();
-		}
+			//$('#select-id-dropdown').hide();
+			//$('#select-id').show();
+		} 
 	}
 
 	function save () {
 		payload['arguments'] = payload['arguments'] || {};
 		payload['arguments'].execute = payload['arguments'].execute || {};
 
-		var idField = deFields.length > 0 ? $('#select-id-dropdown').val() : $('#select-id').val();
+		//var idField = deFields.length > 0 ? $('#select-id-dropdown').val() : $('#select-id').val();
 
 		payload['arguments'].execute.inArguments = [{
-			'serviceCloudId': '{{Event.' + eventDefinitionKey + '.\"' + idField + '\"}}'
+			'serviceCloudId': '{{Event.' + eventDefinitionKey}}'
 		}];
 
 		payload['metaData'] = payload['metaData'] || {};
