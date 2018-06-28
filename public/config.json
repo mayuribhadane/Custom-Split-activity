@@ -65,7 +65,7 @@
 			"header": "",
 			"format": "json",
 			"useJwt": true,
-			"customerKey": "splitkeyactivity"
+			"customerKey": "splitkeyactivity",
 			"timeout": 90000
 		}
 	},	
