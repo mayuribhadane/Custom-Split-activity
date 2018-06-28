@@ -18,19 +18,22 @@
 			"url": "https://rocky-island-15928.herokuapp.com/activity/save",
 			"verb": "POST",
 			"body": "",
-			"useJwt": false
+			"useJwt": true,
+			"customerKey": "splitkeyactivity"
 		},
 		"publish": {
 			"url": "https://rocky-island-15928.herokuapp.com/activity/publish",
 			"verb": "POST",
 			"body": "",
-			"useJwt": false
+			"useJwt": true,
+			"customerKey": "splitkeyactivity"
 		},
 		"validate": {
 			"url": "https://rocky-island-15928.herokuapp.com/activity/validate",
 			"verb": "POST",
 			"body": "",
-			"useJwt": false
+			"useJwt": true,
+			"customerKey": "splitkeyactivity"
 		}
 	},
 	"wizardSteps": [
@@ -38,22 +41,9 @@
 		{"key": "idselection", "label": "ID Selection"}
 	],
 	 "outcomes": [
-		{
-			"arguments": {
-				"branchResult": "true"
-			},
-			"metaData": {
-				"label": "True"
-			}
-		},
-		{
-			"arguments": {
-				"branchResult": "false"
-			},
-			"metaData": {
-				"label": "False"
-			}
-		}
+		 "key": "dataUpdate-outcome-1",
+                 "next": ""
+			
 	], 
 	"userInterfaces": {
 		"runningModal": {
@@ -72,7 +62,8 @@
 			"body": "",
 			"header": "",
 			"format": "json",
-			"useJwt": false,
+			"useJwt": true,
+			"customerKey": "splitkeyactivity"
 			"timeout": 90000
 		}
 	},	
