@@ -15,7 +15,7 @@
 "options": {
 	"salesforce": {
 		"marketingCloud": {
-			"jwtSecret": "115~112~108~105~116~107~101~21"
+			"jwtSecret": "splitkeyactivity"
 		}
 	}
 },
