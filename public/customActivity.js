@@ -109,7 +109,7 @@ define(function (require) {
 		//var idField = deFields.length > 0 ? $('#select-id-dropdown').val() : $('#select-id').val();
 
 		payload['arguments'].execute.inArguments = [{
-			'serviceCloudId': '{{Event.' + eventDefinitionKey}}'
+			'serviceCloudId': 'test'
 		}];
 
 		payload['metaData'] = payload['metaData'] || {};
